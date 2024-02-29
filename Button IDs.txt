@@ -1,0 +1,15 @@
+1:B
+2:X
+3:Y
+4:LBumper
+5:Rbumper
+6:Ltrigger
+7:Rtrigger
+8:Start
+9:Select
+10:Left Stick
+11:Right Stick
+12:Dpad up
+13:Dpad down
+14:Dpad LEft
+15:Dpad right
