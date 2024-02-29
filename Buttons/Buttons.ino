@@ -10,6 +10,7 @@ void setup() {
   pinMode(bindings[pin][0], INPUT_PULLUP);
  }
   Joystick.begin(true);
+  Serial.begin(9600);
 }
 
 
@@ -18,6 +19,7 @@ void loop() {
   for (int pin = 0; pin <= 12; pin++){
       if (digitalRead(bindings[pin][0]) == LOW){
         Joystick.setButton(bindings[pin][1], 1);
+        Serial.print(pin);
       } else {
         Joystick.setButton(bindings[pin][1], 0);
       }
